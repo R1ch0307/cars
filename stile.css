@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+p{
+    color: red;
+    font-family: 'Mynerve', cursive;
+    transition: all 2s;
+}
+img{
+    width: 300px;
+    transition: all 2s;
+}
+
+* {
+    box-sizing: border-box;
+}
+img:hover {
+    width: 200px;
+}
+p:hover {
+    font-size: 20px;
+}
